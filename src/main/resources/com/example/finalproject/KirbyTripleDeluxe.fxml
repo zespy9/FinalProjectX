@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.KirbyTripleDeluxeController">
+   <children>
+      <Label fx:id="TripleGameName" layoutX="481.0" layoutY="56.0" prefHeight="59.0" prefWidth="465.0" text="Game Name ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="TriplePrice" layoutX="481.0" layoutY="137.0" prefHeight="59.0" prefWidth="343.0" text="Price">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="TripleDate" layoutX="481.0" layoutY="240.0" prefHeight="52.0" prefWidth="343.0" text="Date:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="TripleDiscription" layoutX="89.0" layoutY="323.0" prefHeight="99.0" prefWidth="1073.0" text="Discription ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="TripleImage" fitHeight="197.0" fitWidth="259.0" layoutX="191.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/TripleDeluxe.jpg" />
+         </image>
+      </ImageView>
+      <Button id="ReturnButton" layoutX="997.0" layoutY="436.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="59.0" prefWidth="155.0" text="Return" />
+   </children>
+</AnchorPane>

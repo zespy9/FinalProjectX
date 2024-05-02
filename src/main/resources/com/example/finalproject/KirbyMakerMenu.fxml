@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.KMenuController">
+   <children>
+      <Button fx:id="ForgottenLandButton" layoutX="51.0" layoutY="79.0" mnemonicParsing="false" onAction="#forgottenLandSwitch" prefHeight="40.0" prefWidth="135.0" text="Forgotten Land" />
+      <Button fx:id="TripleDeluxeButton" layoutX="221.0" layoutY="168.0" mnemonicParsing="false" onAction="#tripleDeluxeSwitch" prefHeight="40.0" prefWidth="135.0" text="Triple Deluxe" />
+      <Button fx:id="ReturnToDreamLandButton" layoutX="51.0" layoutY="246.0" mnemonicParsing="false" onAction="#returnToDreamLandSwitch" prefHeight="40.0" prefWidth="135.0" text="Return to dream land" />
+      <Button fx:id="StarAlliesButton" layoutX="393.0" layoutY="246.0" mnemonicParsing="false" onAction="#starAlliesSwitch" prefHeight="40.0" prefWidth="135.0" text="Star Allies" />
+      <Button fx:id="PlannetRobobotButton" layoutX="393.0" layoutY="79.0" mnemonicParsing="false" onAction="#plannetRobobotSwitch" prefHeight="40.0" prefWidth="135.0" text="Plannet Robobot" />
+   </children>
+</AnchorPane>
